@@ -8,3 +8,7 @@ To install, clone this repository and run
 
 `npm install`
 `npm run dev`
+
+# App
+
+<img src="public/home.jpeg" width="600px"/>
