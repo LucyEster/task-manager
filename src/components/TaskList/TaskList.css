@@ -1,0 +1,21 @@
+.TaskList {
+    display: flex;
+    flex: 1;
+    flex-flow: column;
+    overflow: scroll;
+    justify-content: center;
+}
+
+.TaskList::-webkit-scrollbar {
+    width: 12px;
+}
+
+.TaskList::-webkit-scrollbar-track {
+    background-color: white;
+}
+
+.TaskList::-webkit-scrollbar-thumb {
+    background-color: grey;
+    border-radius: 20px;
+    border: 3px solid white;
+}

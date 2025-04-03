@@ -1,0 +1,37 @@
+.TaskItem {
+    height: fit-content;
+    text-justify: distribute;
+    background-color: rgb(251, 254, 255);
+    margin: 5px;
+    border: 1px solid rgb(214, 217, 216);
+    border-radius: 5px;
+}
+
+.TaskItem:hover {
+    box-shadow: 0 0 10px #719ECE;
+}
+
+p,
+h4 {
+    margin: 20px 10px;
+    text-align: left;
+}
+
+.TaskItem-header {
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: white;
+}
+
+.TaskItem-completed {
+    background-color: rgb(215, 240, 222);
+}
+
+.TaskItem-actions {
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

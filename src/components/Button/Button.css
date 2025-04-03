@@ -1,0 +1,57 @@
+.DeleteButton {
+    color: rgb(215, 61, 53);
+    padding: 0.5em 1.2em;
+    font-size: x-large;
+}
+
+.DeleteButton:hover {
+    cursor: pointer;
+}
+
+.CheckButton {
+    color: rgb(123, 127, 124);
+    padding: 0.5em 1.2em;
+    font-size: x-large;
+}
+
+.CheckButton:hover {
+    cursor: pointer;
+    color: rgb(9, 128, 39);
+}
+
+.CheckButton-Active {
+    color: rgb(9, 128, 39);
+}
+
+.NewItemButton {
+    display: flex;
+    width: fit-content;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    color: white;
+    padding: 0em 0.5em;
+    font-size: large;
+    background-color: rgb(96, 125, 139);
+    margin: 0.5em;
+    border-radius: 2px;
+}
+
+.NewItemButton:hover {
+    cursor: pointer;
+    box-shadow: 10px 10px 0 0 rgb(55, 71, 79);
+    transition: box-shadow 0.3s;
+}
+
+.CloseButton {
+    color: rgb(96, 125, 139);
+    padding: 1em 2em;
+    font-size: large;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.CloseButton:hover {
+    cursor: pointer;
+}
